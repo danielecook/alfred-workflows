@@ -3,6 +3,7 @@ markdown: redcarpet
 pygments: true
 baseurl: ''
 google_analytics_id: YOUR_ACCOUNT_HERE
+permalink: /:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "author_index.html"]
 highlighter: pygments

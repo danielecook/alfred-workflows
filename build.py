@@ -71,14 +71,12 @@ version: {version}
         os.makedirs(directory)
     if not os.path.exists(username):
         os.makedirs(username)
-    with open(username + "/index.html", 'w') as f:
+    with open(username + "/index.html", 'w+') as f:
         f.write(open("author_index.html").read().replace("<AUTHOR>", username))
-        #print readme
-        try:
-            output = front_matter + readme.encode('utf-8').strip()
-            f.write(output)
-            print title
-        except:
-            pass
+    post_filename = "_posts/" + username + "/" + date_submitted + "-" + title + ".md"
+    print post_filename
+    with open(post_filename,'w') as f:
+        output = front_matter + readme.encode('utf-8').strip()
+        f.write(output)
 
 
