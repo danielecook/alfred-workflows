@@ -1,0 +1,16 @@
+---
+layout: page
+title: Categories
+---
+
+{% assign sorted_posts = (site.posts | sort: 'download_count') %}
+
+{% for post in sorted_posts reversed %}
+
+<ul>
+   <li>
+    {{ post.download_count }} - <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}
+   </li>
+ </ul>
+
+{% endfor %}

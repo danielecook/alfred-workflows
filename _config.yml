@@ -1,0 +1,15 @@
+name: alfred-workflows
+markdown: redcarpet
+pygments: true
+baseurl: ''
+google_analytics_id: YOUR_ACCOUNT_HERE
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "author_index.html"]
+highlighter: pygments
+markdown: redcarpet
+
+kramdown:
+  input: GFM
+
+redcarpet:
+    extensions: ["fenced_code_blocks","no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]

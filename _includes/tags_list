@@ -1,0 +1,9 @@
+
+
+{% assign tags_list = {{site.tags | sort }} %}
+    {% for tag in tags_list %} 
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}">{{ tag[0] }} <span>({{ tag[1].size }})</span></a></li>
+ 	{% endfor %}
+
+
+

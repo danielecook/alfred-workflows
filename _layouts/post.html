@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+
+
+<div class="row">
+	<div class="col-md-8 col-sm-6 col-xs-12">
+		{{ content }}
+	</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+
+<h4>
+	<a href="http://github.com/{{ page.username }}">{{page.username}}</a> / <strong><a href="http://github.com/{{ page.username }}/{{ page.title }}">{{ page.title }}</a></strong>
+</h4>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+	<a href="{{ page.download_url }}" class="btn btn-primary btn-lg active btn-block">Download</a>
+<br />
+<h4>Description</h4>
+<p>{{ page.description }}</p>
+<br />
+
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">{{ page.version }}</span>
+    Version
+  </li>
+
+  <li class="list-group-item">
+    <span class="badge">{{ page.download_count  }}</span>
+    Downloads
+  </li>
+
+
+
+  <li class="list-group-item">
+    <span class="badge">{{ page.release_publish_date |  date: "%Y-%m-%d"  }}</span>
+    Date Released
+  </li>
+
+
+  <li class="list-group-item">
+    <span class="badge">{{ page.date_submitted |  date: "%Y-%m-%d"  }}</span>
+    Date Submitted
+  </li>
+</ul>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <h4><a href="/{{ page.username }}"  class="label label-primary pull-right">{{ page.username }}</a>
+    Author</h4>
+  </li>
+
+  <li class="list-group-item">
+    <span class="badge"></span>
+    <h5>Categories</h5>
+    {% for category in page.categories %}
+    	<a href="/categories.html#{{ category }}"  class="label label-success ">{{ category }}</a>
+    {% endfor %}
+  </li>
+
+
+
+  <li class="list-group-item">
+    <span class="badge"></span>
+    <h5>Tags</h5>
+    {% for tag in page.tags %}
+    	<a href="/tags.html#{{ tag }}"  class="label label-warning">{{ tag }}</a>
+    {% endfor %}
+  </li>
+
+</ul>
+
+
+
+<div class="stats">
+  <span>
+	<iframe src="https://ghbtns.com/github-btn.html?user={{ page.username }}&repo={{ page.title }}&type=star&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+	</span>
+	<span>
+	<iframe src="https://ghbtns.com/github-btn.html?user={{ page.username }}&repo={{ page.title }}&type=fork&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+	</span>
+	<span>
+	<iframe src="https://ghbtns.com/github-btn.html?user={{ page.username }}&repo={{ page.title }}&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+	</span>
+</div>
+
+
+
+
+  </div>
+</div>
+
+
+	</div>
+</div>
+
+
