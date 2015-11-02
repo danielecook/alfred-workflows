@@ -2,12 +2,9 @@
 from csv import DictReader
 from cStringIO import StringIO
 import requests
-import yaml
 import os
-import json
 from pprint import pprint as pp
 from dateutil.parser import parse
-import shutil
 
 token = open(".token", 'r').read()
 
@@ -20,7 +17,7 @@ with open("_data/workflows.tsv", 'w') as f:
 
 for repo in DictReader(StringIO(out.text), delimiter = "\t"):
     readme_url = "https://raw.githubusercontent.com/%s/master/README.md" % repo["Github repo"]
-    readme = requests.get(readme_url)
+    readme = requests.get(readme_url).text
 
     # Format variables
     post_out = "_posts/" + repo["Github repo"]
@@ -35,9 +32,7 @@ for repo in DictReader(StringIO(out.text), delimiter = "\t"):
 
     # Release Info
     release_url = "https://api.github.com/repos/" + username + "/" + title + "/releases/latest"
-    print release_url
     release = requests.get(release_url, auth = ("danielecook", token)).json()
-    print pp(release)
     download_url = release["assets"][0]["browser_download_url"]
     download_count = release["assets"][0]["download_count"]
     release_publish_date = release["assets"][0]["created_at"]
@@ -71,7 +66,6 @@ version: {version}
 ---
 
 """.format(**locals())
-    print front_matter
 
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -79,10 +73,12 @@ version: {version}
         os.makedirs(username)
     with open(username + "/index.html", 'w') as f:
         f.write(open("author_index.html").read().replace("<AUTHOR>", username))
-
-    with open("_posts/" + username + "/" + date_submitted + "-" + title + ".md", 'w') as f:
-        output = front_matter + readme.text
-        output = output.encode('utf-8')
-        f.write(output)
+        #print readme
+        try:
+            output = front_matter + readme.encode('utf-8').strip()
+            f.write(output)
+            print title
+        except:
+            pass
 
 

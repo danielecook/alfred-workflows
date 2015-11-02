@@ -1,16 +1,12 @@
 ---
 layout: page
-title: Categories
+title: Most Popular
 ---
 
 {% assign sorted_posts = (site.posts | sort: 'download_count') %}
 
-{% for post in sorted_posts reversed %}
-
 <ul>
-   <li>
-    {{ post.download_count }} - <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}
-   </li>
- </ul>
-
+{% for post in sorted_posts reversed %}
+         	<li> {{ post.download_count }} - <strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> (<a href = "/{{post.username}}">{{post.username}}</a>) - {{ post.description }}</li>
 {% endfor %}
+ </ul>

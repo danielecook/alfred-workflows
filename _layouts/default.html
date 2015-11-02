@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-responsive.min.css">
 
     <script src="{{ site.baseurl }}/js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
@@ -39,6 +38,23 @@
                             e.src='//www.google-analytics.com/analytics.js';
                             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
      ga('create','{{ site.google_analytics_id }}');ga('send','pageview');
+    </script>
+    <script>
+         $(document).ready(function() {
+        $("#readme img").each(function(){
+            $e = $(this);
+            if ($e.attr("src").startsWith("http") == false) {
+                $e.attr("src","http://github.com/{{ page.username }}/{{ page.title}}/raw/master/" + $e.attr("src"));
+            }
+        })
+
+        $("#readme a").each(function(){
+            $e = $(this);
+            if ($e.attr("href").startsWith("http") == false) {
+                $e.attr("href","http://github.com/{{ page.username }}/{{ page.title}}/raw/master/" + $e.attr("href"));
+            }
+        })
+    })
     </script>
 </body>
 </html>
