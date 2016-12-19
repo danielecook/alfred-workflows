@@ -1,22 +1,36 @@
-Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Email	Tags (space delimited)	publish
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/markdown-table-alfred	danielecook.com	utility	danielecook@gmail.com	markdown	TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/gist-alfred	danielecook.com	snippets	danielecook@gmail.com	gist	TRUE
-12/18/2016 19:16:34	Deanishe	deanishe/alfred-reddit	http://www.deanishe.net/	social		reddit	TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/codebox-alfred	danielecook.com	snippets	danielecook@gmail.com	codebox	TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/wormbase-alfred	danielecook.com	science	danielecook@gmail.com		TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/seq-utilities	danielecook.com	science	danielecook@gmail.com		TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/HGNC-Search	danielecook.com	science	danielecook@gmail.com	genetics	TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	danielecook@gmail.com	pubmed	TRUE
+Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Tags (space delimited)	Email	publish
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/markdown-table-alfred	danielecook.com	utility	markdown	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/gist-alfred	danielecook.com	snippets	gist	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-reddit	http://www.deanishe.net/	social	reddit		TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/codebox-alfred	danielecook.com	snippets	codebox	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/wormbase-alfred	danielecook.com	science		danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/seq-utilities	danielecook.com	science		danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/HGNC-Search	danielecook.com	science	genetics	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	pubmed	danielecook@gmail.com	TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-convert	http://www.deanishe.net/	reference			TRUE
-12/18/2016 19:16:34	Deanishe	deanishe/alfred-mailto	http://www.deanishe.net/	email		mail	TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-mailto	http://www.deanishe.net/	email	mail		TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-smartfolders	http://www.deanishe.net/	osx			TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/Quiver-alfred	danielecook.com	utility	danielecook@gmail.com	quiver	TRUE
-12/18/2016 19:16:34	Owen Min	owenwater/alfred-cal		utility			TRUE
-12/18/2016 19:16:34	Franz Heidl	franzheidl/copy-paths-to-clipboard	http://www.franzheidl.de	utility	web@franzheidl.de		TRUE
-12/18/2016 19:16:34	Alexander Zai	azai91/alfred-drive-workflow	https://github.com/azai91			google-drive	TRUE
-12/18/2016 19:16:34	Ethan Funny	ethan-funny/Google-Alfred3-Workflow	https://funhacks.net/			special-chars	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/Quiver-alfred	danielecook.com	utility	quiver	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Owen Min	owenwater/alfred-cal		utility datetime	datetime		TRUE
+12/18/2016 19:16:34	Franz Heidl	franzheidl/copy-paths-to-clipboard	http://www.franzheidl.de	utility		web@franzheidl.de	TRUE
+12/18/2016 19:16:34	Alexander Zai	azai91/alfred-drive-workflow	https://github.com/azai91		google-drive		TRUE
+12/18/2016 19:16:34	Ethan Funny	ethan-funny/Google-Alfred3-Workflow	https://funhacks.net/		special-chars		TRUE
 12/18/2016 19:16:34	TypeFacts	typefacts/alfred-special-characters		utility 			TRUE
-12/18/2016 19:16:34	Ben Stolovitz	citelao/Spotify-for-Alfred	http://ben.stolovitz.com			spotify	TRUE
+12/18/2016 19:16:34	Ben Stolovitz	citelao/Spotify-for-Alfred	http://ben.stolovitz.com		spotify		TRUE
 12/18/2016 19:16:34	Piotrek WilczyÅski	bevesce/unicode-symbols-search					TRUE
-12/18/2016 19:16:34	Willi Raschkowski	rshkv/alfred-wikipedia		search	willi@raschkowski.com	wikipedia	TRUE
-12/18/2016 19:16:34	Zhao Cai	zhaocai/alfred2-sourcetree-workflow					
+12/18/2016 19:16:34	Willi Raschkowski	rshkv/alfred-wikipedia		search	wikipedia	willi@raschkowski.com	TRUE
+12/18/2016 19:16:34	Zhao Cai	zhaocai/alfred2-sourcetree-workflow					TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-repos	http://www.deanishe.net/	search	git		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-stackoverflow	http://www.deanishe.net/	search	programming		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-sublime-text	http://www.deanishe.net/	utility	sublime-text		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-ssh	http://www.deanishe.net/	utility	ssh		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-appscripts	http://www.deanishe.net/	utility	appscripts		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-transmit	http://www.deanishe.net/	search	ftp ssh		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-relative-dates	http://www.deanishe.net/	utility	datetime		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-network-location	http://www.deanishe.net/	utility			TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-resolve-url	http://www.deanishe.net/	search	search		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-fuzzyfolders	http://www.deanishe.net/	search osx	finder		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-pwgen	http://www.deanishe.net/	utility	password		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-fakeum	http://www.deanishe.net/	utility	utility		TRUE
+12/18/2016 19:16:34	Deanishe	deanishe/alfred-viscosity	http://www.deanishe.net/	utility	vpn		TRUE
+12/18/2016 19:16:34	Rhyd Lewis	rhydlewis/search-omnifocus	http://rhydlewis.net	productivity	omnifocus		TRUE

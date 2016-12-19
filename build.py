@@ -18,17 +18,22 @@ out = requests.get("https://docs.google.com/spreadsheets/d/1fvURn1gixxC_VbSPr0Ne
 with open("_data/workflows.tsv", 'w') as f:
     f.write(out.text)
 
-for repo in DictReader(StringIO(out.text), delimiter = "\t"):
+out = out.text.splitlines()
+header = out[0].split("\t")
+
+for repo in out[1:]:
+    repo = dict(zip(header, repo.split("\t")))
     if repo['publish'] != 'TRUE':
         break
     readme_url = "https://raw.githubusercontent.com/%s/master/README.md" % repo["Github repo"]
-    readme = requests.get(readme_url).text
+    readme = requests.get(readme_url).text.strip()
     if readme == "404: Not Found":
         readme_url = "https://raw.githubusercontent.com/%s/master/Readme.md" % repo["Github repo"]
-        readme = requests.get(readme_url).text 
+        readme = requests.get(readme_url).text.strip()
     if readme == "404: Not Found":
         readme_url = "https://raw.githubusercontent.com/%s/master/readme.md" % repo["Github repo"]
-        readme = requests.get(readme_url).text 
+        readme = requests.get(readme_url).text.strip()
+
     # Format variables
     post_out = "_posts/" + repo["Github repo"]
     directory = os.path.dirname("_posts/" + repo["Github repo"])
@@ -51,7 +56,7 @@ for repo in DictReader(StringIO(out.text), delimiter = "\t"):
         release_publish_date = release["assets"][0]["created_at"]
         version = release["tag_name"]
     except:
-        break
+        continue
 
     
 

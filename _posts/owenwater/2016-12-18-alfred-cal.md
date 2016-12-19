@@ -2,9 +2,9 @@
 title: alfred-cal
 layout: post
 username: owenwater
-categories: utility
+categories: utility datetime
 description: "Displays a calendar with Alfred Workflow"
-tags: 
+tags: datetime
 star_src: "https://ghbtns.com/github-btn.html?user=owenwater&repo=alfred-cal&type=star&count=true"
 download_url: "https://github.com/owenwater/alfred-cal/releases/download/1.3.1/Calendar.alfredworkflow"
 download_count: 14
