@@ -1,9 +1,12 @@
-Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Email	Tags (space delimited)
-11/1/2015 19:16:34	Daniel E. Cook	danielecook/markdown-table-alfred	danielecook.com	utility	danielecook@gmail.com	markdown
-11/1/2015 20:44:05	Daniel E. Cook	danielecook/gist-alfred	danielecook.com	snippets	danielecook@gmail.com	gist
-11/1/2015 22:03:32		deanishe/alfred-reddit		social	dan@dan.com	reddit
-11/1/2015 22:57:13	Daniel E. Cook	danielecook/codebox-alfred	danielecook.com	snippets	danielecook@gmail.com	codebox
-11/1/2015 22:57:44	Daniel E. Cook	danielecook/wormbase-alfred	danielecook.com	science	danielecook@gmail.com	
-11/1/2015 22:58:39	Daniel E. Cook	danielecook/seq-utilities	danielecook.com	science	danielecook@gmail.com	
-11/1/2015 22:59:48		danielecook/HGNC-Search	danielecook.com	science	danielecook@gmail.com	genetics
-11/1/2015 22:58:39	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	danielecook@gmail.com	pubmed
+Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Email	Tags (space delimited)	publish
+11/1/2015 19:16:34	Daniel E. Cook	danielecook/markdown-table-alfred	danielecook.com	utility	danielecook@gmail.com	markdown	TRUE
+11/1/2015 20:44:05	Daniel E. Cook	danielecook/gist-alfred	danielecook.com	snippets	danielecook@gmail.com	gist	TRUE
+11/1/2015 22:03:32	Deanishe	deanishe/alfred-reddit	http://www.deanishe.net/	social		reddit	TRUE
+11/1/2015 22:57:13	Daniel E. Cook	danielecook/codebox-alfred	danielecook.com	snippets	danielecook@gmail.com	codebox	TRUE
+11/1/2015 22:57:44	Daniel E. Cook	danielecook/wormbase-alfred	danielecook.com	science	danielecook@gmail.com		TRUE
+11/1/2015 22:58:39	Daniel E. Cook	danielecook/seq-utilities	danielecook.com	science	danielecook@gmail.com		TRUE
+11/1/2015 22:59:48	Daniel E. Cook	danielecook/HGNC-Search	danielecook.com	science	danielecook@gmail.com	genetics	TRUE
+11/1/2015 22:58:39	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	danielecook@gmail.com	pubmed	TRUE
+11/2/2015	Deanishe	deanishe/alfred-convert	http://www.deanishe.net/	reference			TRUE
+11/2/2015	Deanishe	deanishe/alfred-mailto	http://www.deanishe.net/	email		mail	TRUE
+11/2/2015	Deanishe	deanishe/alfred-smartfolders	http://www.deanishe.net/	osx			TRUE

@@ -25,26 +25,23 @@ layout: default
 
 <ul class="list-group">
   <li class="list-group-item">
-    <span class="badge">{{ page.version }}</span>
-    Version
+    <strong>Version</strong> <div class='pull-right'>{{ page.version }}</div>
   </li>
 
   <li class="list-group-item">
-    <span class="badge">{{ page.download_count  }}</span>
-    Downloads
+    <strong>Downloads</strong>
+    <div class='pull-right'>{{ page.download_count  }}</div>
   </li>
 
 
 
   <li class="list-group-item">
-    <span class="badge">{{ page.release_publish_date |  date: "%Y-%m-%d"  }}</span>
-    Date Released
+    <strong>Date Released:</strong> <div class='pull-right'>{{ page.release_publish_date |  date: "%Y-%m-%d"  }}</div>
   </li>
 
 
   <li class="list-group-item">
-    <span class="badge">{{ page.date_submitted |  date: "%Y-%m-%d"  }}</span>
-    Date Submitted
+    <strong>Date Submitted</strong><div class='pull-right'>{{ page.date_submitted |  date: "%Y-%m-%d"  }}</div>
   </li>
 </ul>
 
@@ -56,7 +53,7 @@ layout: default
 
   <li class="list-group-item">
     <span class="badge"></span>
-    <h5>Categories</h5>
+    <strong>Categories</strong>
     {% for category in page.categories %}
     	<a href="/categories.html#{{ category }}"  class="label label-success ">{{ category }}</a>
     {% endfor %}
@@ -66,7 +63,7 @@ layout: default
 
   <li class="list-group-item">
     <span class="badge"></span>
-    <h5>Tags</h5>
+    <strong>Tags</strong>
     {% for tag in page.tags %}
     	<a href="/tags.html#{{ tag }}"  class="label label-warning">{{ tag }}</a>
     {% endfor %}

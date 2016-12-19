@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Home
-author: deanishe
+layout: page
+title: Workflows by danielecook
+author: danielecook
 ---
 
 <div class="row">
@@ -10,9 +10,7 @@ author: deanishe
 		<ul>
 		  {% for post in site.posts %}
 		  {% if post.username == page.author %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-	    </li>
+		            	<li><strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> {{ post.description }}</li>
 	    {% endif %}
 		  {% endfor %}
 		</ul>
