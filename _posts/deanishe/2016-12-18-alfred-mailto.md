@@ -15,6 +15,7 @@ stars: 22
 watchers: 22
 version: v2.1.4
 ---
+
 Alfred-MailTo
 =============
 

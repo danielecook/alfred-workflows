@@ -15,6 +15,7 @@ stars: 22
 watchers: 22
 version: v1.4
 ---
+
 Reddit for Alfred
 =================
 

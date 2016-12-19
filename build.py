@@ -6,6 +6,9 @@ import os
 from pprint import pprint as pp
 from dateutil.parser import parse
 import re
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 token = open(".token", 'r').read()
 
@@ -82,7 +85,8 @@ version: {version}
     post_filename = "_posts/" + username + "/" + date_submitted + "-" + title + ".md"
     print(post_filename)
     with open(post_filename,'w') as f:
-        output = front_matter + readme.encode('utf-8').strip()
+        out = front_matter + readme
+        output = unicode(out)
         f.write(output)
 
 

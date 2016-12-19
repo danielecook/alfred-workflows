@@ -34,3 +34,7 @@ __Generate the complement, reverse complement, RNA, and protein of a DNA sequenc
 __Open up blast and pre-populate the search field__
 
 	blast ATGTCCTCGTTCGACCGTCGTATTGAAGCTGCATGTAAA
+
+
+
+
