@@ -89,9 +89,7 @@ version: {version}
 
     if not os.path.exists(directory):
         os.makedirs(directory)
-    if not os.path.exists("u/" + username):
-        os.makedirs("u/" + username)
-    with open("u/" + username + "/index.html", 'w+') as f:
+    with open("u/" + username + ".html", 'w+') as f:
         f.write(open("author_index.html").read().replace("<AUTHOR>", username))
     post_filename = "_posts/" + username + "/" + date_submitted + "-" + title + ".md"
     print(post_filename)

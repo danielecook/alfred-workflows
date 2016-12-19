@@ -6,13 +6,35 @@ title: Home
 <div class="row">
     <div class="col-md-12">
 
-		<ul>
-		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-	    </li>
-		  {% endfor %}
-		</ul>
+<h1>Welcome</h1>
+<p>This site will act as a fast and easy to use repository for Alfred Workflows.</p>
+<br />
+<a href='/submit' class='btn btn-primary btn-lg'>Submit your workflow</a>
+<br />
+<br />
+		
+        {% assign sorted_posts = (site.posts | sort: 'download_count') %}
+
+<h2>Most Popular Workflows</h2>
+
+<table class='table table-hover'>
+<tr>
+<th class='text-right'>Downloads</th>
+<th>Workflow</th>
+<th>Author</th>
+<th>Description</th>
+</tr>
+</thead>
+{% for post in sorted_posts reversed %}
+<tr>
+    <td class='text-right'>{{ post.download_count }}</td>
+    <td><strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong></td>
+    <td><a href = "/{{post.username}}">{{post.username}}</a></td>
+    <td>{{ post.description }}</td>
+</tr>
+{% endfor %}
+ </table>
 
     </div>
 </div>
+

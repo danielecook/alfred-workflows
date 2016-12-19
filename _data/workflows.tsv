@@ -6,7 +6,7 @@ Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Tags (space d
 12/18/2016 19:16:34	Daniel E. Cook	danielecook/wormbase-alfred	danielecook.com	science		danielecook@gmail.com	TRUE
 12/18/2016 19:16:34	Daniel E. Cook	danielecook/seq-utilities	danielecook.com	science		danielecook@gmail.com	TRUE
 12/18/2016 19:16:34	Daniel E. Cook	danielecook/HGNC-Search	danielecook.com	science	genetics	danielecook@gmail.com	TRUE
-12/18/2016 19:16:34	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	pubmed	danielecook@gmail.com	TRUE
+12/18/2016 19:16:34	Daniel E. Cook	danielecook/pubmed	danielecook.com	science	pubmed publications	danielecook@gmail.com	TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-convert	http://www.deanishe.net/	reference			TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-mailto	http://www.deanishe.net/	email	mail		TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-smartfolders	http://www.deanishe.net/	osx			TRUE
@@ -34,3 +34,8 @@ Timestamp	Author	Github repo	Homepage	Categories (space delimited)	Tags (space d
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-fakeum	http://www.deanishe.net/	utility	utility		TRUE
 12/18/2016 19:16:34	Deanishe	deanishe/alfred-viscosity	http://www.deanishe.net/	utility	vpn		TRUE
 12/18/2016 19:16:34	Rhyd Lewis	rhydlewis/search-omnifocus	http://rhydlewis.net	productivity	omnifocus		TRUE
+12/18/2016 19:16:34	Frank S.	fspinillo/slackfred		productivity	slack		TRUE
+12/18/2016 19:16:34	Will Farrell	willfarrell/alfred-caniuse-workflow	http://willfarrell.ca	web	caniuse css	iam@willfarrell.ca	TRUE
+12/18/2016 19:16:34	ruedap	ruedap/alfred-font-awesome-workflow	http://ruedap.com	web	fontawesome		TRUE
+12/18/2016 19:16:34	Will Farrell	willfarrell/alfred-encode-decode-workflow	http://willfarrell.ca	text			TRUE
+12/18/2016 19:16:34	Hendrik Buschmeier	hbuschme/doi-tools-alfred-workflow/	http://purl.org/net/hbuschme	science	doi publications		TRUE
