@@ -55,7 +55,7 @@ layout: default
     <span class="badge"></span>
     <strong>Categories</strong>
     {% for category in page.categories %}
-    	<a href="/categories.html#{{ category }}"  class="label label-success ">{{ category }}</a>
+    	<a href="/categories/#{{ category }}"  class="label label-success ">{{ category }}</a>
     {% endfor %}
   </li>
 
@@ -65,7 +65,7 @@ layout: default
     <span class="badge"></span>
     <strong>Tags</strong>
     {% for tag in page.tags %}
-    	<a href="/tags.html#{{ tag }}"  class="label label-warning">{{ tag }}</a>
+    	<a href="/tags/#{{ tag }}"  class="label label-warning">{{ tag }}</a>
     {% endfor %}
   </li>
 
