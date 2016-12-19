@@ -23,6 +23,12 @@ for repo in DictReader(StringIO(out.text), delimiter = "\t"):
         break
     readme_url = "https://raw.githubusercontent.com/%s/master/README.md" % repo["Github repo"]
     readme = requests.get(readme_url).text
+    if readme == "404: Not Found":
+        readme_url = "https://raw.githubusercontent.com/%s/master/Readme.md" % repo["Github repo"]
+        readme = requests.get(readme_url).text 
+    if readme == "404: Not Found":
+        readme_url = "https://raw.githubusercontent.com/%s/master/readme.md" % repo["Github repo"]
+        readme = requests.get(readme_url).text 
     # Format variables
     post_out = "_posts/" + repo["Github repo"]
     directory = os.path.dirname("_posts/" + repo["Github repo"])
