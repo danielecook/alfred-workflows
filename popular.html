@@ -7,6 +7,6 @@ title: Most Popular
 
 <ul>
 {% for post in sorted_posts reversed %}
-         	<li> {{ post.download_count }} - <strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> (<a href = "/{{post.username}}">{{post.username}}</a>) - {{ post.description }}</li>
+         	<li> {{ post.download_count }} - <strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> (<a href = "/u/{{post.username}}">{{post.username}}</a>) - {{ post.description }}</li>
 {% endfor %}
  </ul>

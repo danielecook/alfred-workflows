@@ -16,9 +16,10 @@ with open("_data/workflows.tsv", 'w') as f:
     f.write(out.text)
 
 for repo in DictReader(StringIO(out.text), delimiter = "\t"):
+    if repo['publish'] != 'TRUE':
+        break
     readme_url = "https://raw.githubusercontent.com/%s/master/README.md" % repo["Github repo"]
     readme = requests.get(readme_url).text
-
     # Format variables
     post_out = "_posts/" + repo["Github repo"]
     directory = os.path.dirname("_posts/" + repo["Github repo"])
@@ -34,13 +35,15 @@ for repo in DictReader(StringIO(out.text), delimiter = "\t"):
     release_url = "https://api.github.com/repos/" + username + "/" + title + "/releases/latest"
     release = requests.get(release_url, auth = ("danielecook", token)).json()
 
-    if 'assets' in release:
+
+    try:
         download_url = release["assets"][0]["browser_download_url"]
         download_count = release["assets"][0]["download_count"]
         release_publish_date = release["assets"][0]["created_at"]
         version = release["tag_name"]
-    else:
+    except:
         break
+
     
 
     # Repo Info
@@ -77,15 +80,9 @@ version: {version}
     with open("u/" + username + "/index.html", 'w+') as f:
         f.write(open("author_index.html").read().replace("<AUTHOR>", username))
     post_filename = "_posts/" + username + "/" + date_submitted + "-" + title + ".md"
+    print(post_filename)
     with open(post_filename,'w') as f:
         output = front_matter + readme.encode('utf-8').strip()
-        # Identify media and fetch!
-        for i in re.findall("\!\[([^\]])+]\(([^)]+)\)", output):
-            "https://raw.githubusercontent.com/%s/master/README.md" % repo["Github repo"]
-            requests.get("")
-            print i[1]
-            #print dir(i)
-    
         f.write(output)
 
 

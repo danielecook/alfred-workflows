@@ -17,7 +17,7 @@ group: navigation
   {% if post.tags contains t %}
 
 
-      	<li><strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> (<a href = "/{{post.username}}">{{post.username}}</a>)- {{ post.description }}</li>
+      	<li><strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong> (<a href = "/u/{{post.username}}">{{post.username}}</a>)- {{ post.description }}</li>
 
   {% endif %}
 {% endfor %}
