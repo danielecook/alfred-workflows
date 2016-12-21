@@ -7,7 +7,7 @@ description: "Alfred workflow to search google drive"
 tags: google-drive
 star_src: "https://ghbtns.com/github-btn.html?user=azai91&repo=alfred-drive-workflow&type=star&count=true"
 download_url: "https://github.com/azai91/alfred-drive-workflow/releases/download/v1.2/Google.Drive.alfredworkflow"
-download_count: 334
+download_count: 336
 release_publish_date: 2016-04-24T15:27:31Z
 date_submitted: 2016-12-18
 forks: 4

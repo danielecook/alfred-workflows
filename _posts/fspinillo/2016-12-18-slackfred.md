@@ -11,8 +11,8 @@ download_count: 5
 release_publish_date: 2016-07-31T16:16:04Z
 date_submitted: 2016-12-18
 forks: 14
-stars: 168
-watchers: 168
+stars: 169
+watchers: 169
 version: 1.8.3
 ---
 slackfred

@@ -7,12 +7,12 @@ description: "Alfred workflow that allows free text searching of OmniFocus tasks
 tags: omnifocus
 star_src: "https://ghbtns.com/github-btn.html?user=rhydlewis&repo=search-omnifocus&type=star&count=true"
 download_url: "https://github.com/rhydlewis/search-omnifocus/releases/download/v1.2.2/Search.OmniFocus.v1.2.2.alfredworkflow"
-download_count: 130
+download_count: 141
 release_publish_date: 2016-11-25T15:14:44Z
 date_submitted: 2016-12-18
 forks: 5
-stars: 68
-watchers: 68
+stars: 69
+watchers: 69
 version: v1.2.2
 ---
 # Search OmniFocus Alfred Workflow

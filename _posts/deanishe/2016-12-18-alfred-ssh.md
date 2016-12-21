@@ -7,7 +7,7 @@ description: "Open SSH/SFTP/mosh connections from Alfred 3"
 tags: ssh
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-ssh&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-ssh/releases/download/v0.7.1/Secure-SHell-0.7.1.alfredworkflow"
-download_count: 26
+download_count: 36
 release_publish_date: 2016-12-12T09:59:12Z
 date_submitted: 2016-12-18
 forks: 1

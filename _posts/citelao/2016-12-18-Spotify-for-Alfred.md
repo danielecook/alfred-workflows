@@ -7,7 +7,7 @@ description: "aka Spotifious — a natural Spotify controller for Alfred"
 tags: spotify
 star_src: "https://ghbtns.com/github-btn.html?user=citelao&repo=Spotify-for-Alfred&type=star&count=true"
 download_url: "https://github.com/citelao/Spotify-for-Alfred/releases/download/v0.13.1/Spotifious.alfredworkflow"
-download_count: 544
+download_count: 549
 release_publish_date: 2016-06-19T02:26:48Z
 date_submitted: 2016-12-18
 forks: 12

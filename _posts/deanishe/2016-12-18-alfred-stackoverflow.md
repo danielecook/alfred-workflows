@@ -7,7 +7,7 @@ description: "Search StackOverflow.com from Alfred"
 tags: programming
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-stackoverflow&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-stackoverflow/releases/download/v1.2/StackOverflow-1.2.alfredworkflow"
-download_count: 365
+download_count: 369
 release_publish_date: 2016-03-02T08:09:51Z
 date_submitted: 2016-12-18
 forks: 3

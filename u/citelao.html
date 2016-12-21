@@ -16,8 +16,9 @@ permalink: /citelao/
         </tr>
         </thead>
         <tbody>
+{% assign sorted_pages = (site.posts | sort: 'title') %}
 
-		  {% for post in site.posts %}
+		  {% for post in sorted_pages %}
 		  {% if post.username == page.author %}
 		            	<tr><td><strong><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></strong></td>
                         <td>{{ post.description }}</td></tr>
