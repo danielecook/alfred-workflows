@@ -7,10 +7,10 @@ description: "Generate passwords with Alfred"
 tags: password
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-pwgen&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-pwgen/releases/download/v1.3/Password.Generator-1.3.alfredworkflow"
-download_count: 457
+download_count: 479
 release_publish_date: 2015-11-03T20:04:56Z
 date_submitted: 2016-12-18
-forks: 1
+forks: 3
 stars: 22
 watchers: 22
 version: v1.3

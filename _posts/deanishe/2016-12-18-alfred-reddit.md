@@ -7,12 +7,12 @@ description: "Browse Reddit from Alfred"
 tags: reddit
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-reddit&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-reddit/releases/download/v1.4/Reddit-1.4.alfred3workflow"
-download_count: 20
+download_count: 24
 release_publish_date: 2016-11-01T15:03:07Z
 date_submitted: 2016-12-18
-forks: 4
-stars: 22
-watchers: 22
+forks: 3
+stars: 23
+watchers: 23
 version: v1.4
 ---
 Reddit for Alfred

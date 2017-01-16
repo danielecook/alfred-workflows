@@ -6,14 +6,14 @@ categories: productivity
 description: "Alfred workflow that allows free text searching of OmniFocus tasks"
 tags: omnifocus
 star_src: "https://ghbtns.com/github-btn.html?user=rhydlewis&repo=search-omnifocus&type=star&count=true"
-download_url: "https://github.com/rhydlewis/search-omnifocus/releases/download/v1.2.2/Search.OmniFocus.v1.2.2.alfredworkflow"
-download_count: 141
-release_publish_date: 2016-11-25T15:14:44Z
+download_url: "https://github.com/rhydlewis/search-omnifocus/releases/download/v1.2.3/Search.OmniFocus.v1.2.3.alfredworkflow"
+download_count: 44
+release_publish_date: 2017-01-09T09:32:30Z
 date_submitted: 2016-12-18
 forks: 5
-stars: 69
-watchers: 69
-version: v1.2.2
+stars: 70
+watchers: 70
+version: v1.2.3
 ---
 # Search OmniFocus Alfred Workflow
 
@@ -36,6 +36,10 @@ Well, I want it because I can't quickly search for, say, a task within OmniFocus
 * Search for all tasks within OmniFocus (irrespective of status) with `.s`:
 
 ![](search-for-tasks.png)
+
+### Searching for tasks in the Inbox and the Library 
+
+* Search for all tasks within OmniFocus (whether you've processed them or not) with `.se`.
 
 ### Searching the inbox
 

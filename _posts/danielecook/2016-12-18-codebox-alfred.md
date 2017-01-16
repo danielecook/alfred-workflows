@@ -7,7 +7,7 @@ description: "An alfred workflow for accessing codebox snippets."
 tags: codebox
 star_src: "https://ghbtns.com/github-btn.html?user=danielecook&repo=codebox-alfred&type=star&count=true"
 download_url: "https://github.com/danielecook/codebox-alfred/releases/download/0.1/Codebox-Alfred.alfredworkflow"
-download_count: 40
+download_count: 42
 release_publish_date: 2015-06-17T22:19:44Z
 date_submitted: 2016-12-18
 forks: 0

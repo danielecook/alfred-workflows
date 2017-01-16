@@ -7,12 +7,12 @@ description: "Convert between different units in Alfred"
 tags: 
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-convert&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-convert/releases/download/v2.5/Convert-2.5.alfredworkflow"
-download_count: 997
+download_count: 1021
 release_publish_date: 2015-12-11T12:28:36Z
 date_submitted: 2016-12-18
 forks: 9
-stars: 82
-watchers: 82
+stars: 84
+watchers: 84
 version: v2.5
 ---
 # Alfred-Convert #

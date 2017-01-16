@@ -7,7 +7,7 @@ description: "Manage Viscosity VPN connections from Alfred"
 tags: vpn
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-viscosity&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-viscosity/releases/download/v1.1/Viscosity-1.1.alfredworkflow"
-download_count: 26
+download_count: 27
 release_publish_date: 2015-11-23T21:58:32Z
 date_submitted: 2016-12-18
 forks: 1

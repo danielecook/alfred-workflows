@@ -7,7 +7,7 @@ description: "List, filter and activate network locations from within Alfred"
 tags: 
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-network-location&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-network-location/releases/download/v1.0/Network-Location.alfredworkflow"
-download_count: 218
+download_count: 222
 release_publish_date: 2014-06-18T18:39:37Z
 date_submitted: 2016-12-18
 forks: 1

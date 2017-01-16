@@ -7,7 +7,7 @@ description: "Alfred workflow to resolve HTTP redirects and return the canonical
 tags: search
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-resolve-url&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-resolve-url/releases/download/v1.4/Resolve.URL-1.4.0.alfredworkflow"
-download_count: 9
+download_count: 10
 release_publish_date: 2015-03-17T20:20:42Z
 date_submitted: 2016-12-18
 forks: 2

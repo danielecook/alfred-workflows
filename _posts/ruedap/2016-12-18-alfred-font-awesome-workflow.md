@@ -7,12 +7,12 @@ description: ":tophat: Font Awesome Workflow for Alfred 2 & 3"
 tags: fontawesome
 star_src: "https://ghbtns.com/github-btn.html?user=ruedap&repo=alfred-font-awesome-workflow&type=star&count=true"
 download_url: "https://github.com/ruedap/alfred-font-awesome-workflow/releases/download/4.6.3.0/Font-Awesome.alfredworkflow"
-download_count: 50
+download_count: 60
 release_publish_date: 2016-05-17T16:40:32Z
 date_submitted: 2016-12-18
-forks: 12
-stars: 432
-watchers: 432
+forks: 13
+stars: 436
+watchers: 436
 version: 4.6.3.0
 ---
 # Font Awesome Workflow for Alfred 2 & 3

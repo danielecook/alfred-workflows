@@ -7,7 +7,7 @@ description: "Filter and open your Sublime Text (2 and 3) project files from Alf
 tags: sublime-text
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-sublime-text&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-sublime-text/releases/download/v2.1/Sublime.Text.Projects-2.1.alfredworkflow"
-download_count: 51
+download_count: 57
 release_publish_date: 2016-05-10T10:08:38Z
 date_submitted: 2016-12-18
 forks: 0

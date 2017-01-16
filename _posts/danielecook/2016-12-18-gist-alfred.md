@@ -7,7 +7,7 @@ description: "An alfred workflow for accessing gists"
 tags: gist
 star_src: "https://ghbtns.com/github-btn.html?user=danielecook&repo=gist-alfred&type=star&count=true"
 download_url: "https://github.com/danielecook/gist-alfred/releases/download/0.2/gist.alfredworkflow"
-download_count: 62
+download_count: 70
 release_publish_date: 2015-09-16T19:02:34Z
 date_submitted: 2016-12-18
 forks: 3

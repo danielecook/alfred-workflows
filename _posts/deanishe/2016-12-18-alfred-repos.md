@@ -7,7 +7,7 @@ description: "Browse, search and open Git repositories from within Alfred."
 tags: git
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-repos&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-repos/releases/download/v1.7/Git_Repos-1.7.alfredworkflow"
-download_count: 102
+download_count: 103
 release_publish_date: 2015-08-07T21:13:42Z
 date_submitted: 2016-12-18
 forks: 5

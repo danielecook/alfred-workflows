@@ -7,10 +7,10 @@ description: "Fuzzy search across folder subdirectories"
 tags: finder
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-fuzzyfolders&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-fuzzyfolders/releases/download/v2.3.1/Fuzzy-Folders-2.3.1.alfred3workflow"
-download_count: 6
+download_count: 8
 release_publish_date: 2016-10-29T11:12:03Z
 date_submitted: 2016-12-18
-forks: 3
+forks: 4
 stars: 14
 watchers: 14
 version: v2.3.1

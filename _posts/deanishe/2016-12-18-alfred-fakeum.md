@@ -7,7 +7,7 @@ description: "Generate fake test data in Alfred"
 tags: utility
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-fakeum&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-fakeum/releases/download/v1.2/Fakeum-1.2.alfredworkflow"
-download_count: 101
+download_count: 103
 release_publish_date: 2016-01-28T15:14:19Z
 date_submitted: 2016-12-18
 forks: 3

@@ -7,7 +7,7 @@ description: "Alfred workflow with sequence utilities"
 tags: 
 star_src: "https://ghbtns.com/github-btn.html?user=danielecook&repo=seq-utilities&type=star&count=true"
 download_url: "https://github.com/danielecook/seq-utilities/releases/download/0.3/Seq-utilities.alfredworkflow"
-download_count: 30
+download_count: 31
 release_publish_date: 2015-07-08T19:41:34Z
 date_submitted: 2016-12-18
 forks: 0

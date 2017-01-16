@@ -7,12 +7,12 @@ description: "Displays a calendar with Alfred Workflow"
 tags: datetime
 star_src: "https://ghbtns.com/github-btn.html?user=owenwater&repo=alfred-cal&type=star&count=true"
 download_url: "https://github.com/owenwater/alfred-cal/releases/download/1.3.1/Calendar.alfredworkflow"
-download_count: 14
+download_count: 15
 release_publish_date: 2015-08-26T00:54:12Z
 date_submitted: 2016-12-18
 forks: 3
-stars: 18
-watchers: 18
+stars: 20
+watchers: 20
 version: 1.3.1
 ---
 #Calendar

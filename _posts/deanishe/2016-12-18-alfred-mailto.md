@@ -7,12 +7,12 @@ description: "Send emails to recipients and groups from Alfred"
 tags: mail
 star_src: "https://ghbtns.com/github-btn.html?user=deanishe&repo=alfred-mailto&type=star&count=true"
 download_url: "https://github.com/deanishe/alfred-mailto/releases/download/v2.1.4/MailTo-2.1.4.alfredworkflow"
-download_count: 279
+download_count: 293
 release_publish_date: 2016-02-10T15:03:27Z
 date_submitted: 2016-12-18
 forks: 4
-stars: 22
-watchers: 22
+stars: 23
+watchers: 23
 version: v2.1.4
 ---
 Alfred-MailTo
